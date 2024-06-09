@@ -1,0 +1,65 @@
+[
+    {
+        "_id": {
+            "$oid": "6665b9da281f7216b923823e"
+        },
+        "first_name": "John",
+        "last_name": "Doe",
+        "age": "30",
+        "gender": "Male",
+        "contact": {
+            "email": "john.doe@example.com",
+            "phone": "+123456789",
+            "fax": "+987654321"
+        },
+        "address": {
+            "state_name": "California",
+            "region_name": "West Coast",
+            "street": "123 Elm Street",
+            "postal_code": "90001",
+            "city": "Los Angeles"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6665b9da281f7216b923823f"
+        },
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "age": "25",
+        "gender": "Female",
+        "contact": {
+            "email": "jane.smith@example.com",
+            "phone": "+1987654321",
+            "fax": "+1234567890"
+        },
+        "address": {
+            "state_name": "New York",
+            "region_name": "East Coast",
+            "street": "456 Oak Avenue",
+            "postal_code": "10001",
+            "city": "New York"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6665b9da281f7216b9238240"
+        },
+        "first_name": "Alice",
+        "last_name": "Johnson",
+        "age": "28",
+        "gender": "Female",
+        "contact": {
+            "email": "alice.johnson@example.com",
+            "phone": "+1122334455",
+            "fax": "+5544332211"
+        },
+        "address": {
+            "state_name": "Texas",
+            "region_name": "South",
+            "street": "789 Pine Road",
+            "postal_code": "75001",
+            "city": "Dallas"
+        }
+    }
+]

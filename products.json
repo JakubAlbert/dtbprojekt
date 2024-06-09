@@ -1,0 +1,128 @@
+[
+    {
+        "_id": {
+            "$oid": "6665bd59281f7216b923824c"
+        },
+        "product_name": "Laptop",
+        "unit_price": "1200.00",
+        "units_in_stock": "50",
+        "categories": [
+            {
+                "category_name": "Electronics",
+                "category_desciption": "Electronic devices and accessories",
+                "subcategories": [
+                    {
+                        "subCategory_name": "Computers",
+                        "subCategory_description": "Desktops and laptops"
+                    }
+                ]
+            }
+        ],
+        "suppliers": {
+            "company_name": "Tech Supplies Co.",
+            "phone": "+123456789",
+            "email": "contact@techsupplies.com",
+            "fax": "+987654321"
+        },
+        "stocks": {
+            "quantity_available": "45",
+            "reorder_level": "10",
+            "reorder_quantity": "50",
+            "warehouse_location": "Warehouse A"
+        },
+        "reviews": [
+            {
+                "customer_id": {
+                    "$oid": "6665b9da281f7216b923823e"
+                },
+                "rating": "5",
+                "review_text": "Excellent product, high performance.",
+                "review_date": "2023-05-12"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6665bd59281f7216b923824d"
+        },
+        "product_name": "Office Chair",
+        "unit_price": "150.00",
+        "units_in_stock": "200",
+        "categories": [
+            {
+                "category_name": "Furniture",
+                "category_desciption": "Office and home furniture",
+                "subcategories": [
+                    {
+                        "subCategory_name": "Chairs",
+                        "subCategory_description": "Office and home chairs"
+                    }
+                ]
+            }
+        ],
+        "suppliers": {
+            "company_name": "Comfort Furnishings",
+            "phone": "+1987654321",
+            "email": "sales@comfortfurnishings.com",
+            "fax": "+1234567890"
+        },
+        "stocks": {
+            "quantity_available": "180",
+            "reorder_level": "20",
+            "reorder_quantity": "100",
+            "warehouse_location": "Warehouse B"
+        },
+        "reviews": [
+            {
+                "customer_id": {
+                    "$oid": "6665b9da281f7216b923823f"
+                },
+                "rating": "4",
+                "review_text": "Very comfortable, good build quality.",
+                "review_date": "2023-06-01"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6665bd59281f7216b923824e"
+        },
+        "product_name": "Smartphone",
+        "unit_price": "800.00",
+        "units_in_stock": "100",
+        "categories": [
+            {
+                "category_name": "Electronics",
+                "category_desciption": "Electronic devices and accessories",
+                "subcategories": [
+                    {
+                        "subCategory_name": "Mobile Phones",
+                        "subCategory_description": "Smartphones and accessories"
+                    }
+                ]
+            }
+        ],
+        "suppliers": {
+            "company_name": "Mobile World",
+            "phone": "+1122334455",
+            "email": "info@mobileworld.com",
+            "fax": "+5544332211"
+        },
+        "stocks": {
+            "quantity_available": "95",
+            "reorder_level": "20",
+            "reorder_quantity": "50",
+            "warehouse_location": "Warehouse C"
+        },
+        "reviews": [
+            {
+                "customer_id": {
+                    "$oid": "6665b9da281f7216b9238240"
+                },
+                "rating": "4.5",
+                "review_text": "Great features, good value for money.",
+                "review_date": "2023-07-20"
+            }
+        ]
+    }
+]
